@@ -83,7 +83,7 @@ properly.
 /* ================================================================== */
 
 header {
-   height: 54px;
+   height: 82px;
    width: 100%;
    z-index: 99999;
    background: url(../images/k-opacity-70.png);
@@ -100,7 +100,7 @@ header.static {
 /* header logo */
 header .logo {
    position: relative;
-   height: 54px;
+   height: 82px;
    width: 150px;
    float: left;
 }
@@ -137,7 +137,7 @@ header .logo a {
 #nav-wrap > a { display: none; }
 
 ul#nav {
-   min-height: 54px;
+   min-height: 82px;
    width: auto;
 
    /* left align the menu */
@@ -146,7 +146,7 @@ ul#nav {
 ul#nav li {
 	position: relative;
 	list-style: none;
-   height: 54px;
+   height: 82px;
 
    display: inline-block;
 }
@@ -159,11 +159,11 @@ ul#nav > li.active a {
 ul#nav li a {
    display: block;
    padding: 0 14px;
-   line-height: 54px;
+   line-height: 82px;
 	text-decoration: none;
    text-align: left;
    color: #fff;
-
+   font-size: 20px ;
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
 	-o-transition: color .2s ease-in-out;
@@ -200,7 +200,7 @@ ul#nav li.active a { color: #11ABB0; }
    margin: 156px auto 66px auto;
 }
 .slider-text h2 {
-   font: 56px/78px montserrat-regular, Sans-serif;
+   font: 56px/82px montserrat-regular, Sans-serif;
    color: #fff;
    text-shadow: 0px 1px 5px rgba(50, 50, 50, .5);
    padding: 0;
@@ -1356,16 +1356,16 @@ footer .social-links li:first-child { margin-left: 0; }
    .mobile #nav-wrap ul#nav li a {
       margin: 0;
       padding: 0;
-      font-size: 13px;
+      font-size: 18px;
       margin: 10px 0;
-      line-height: 14px;
+      line-height: 20px;
       border: none;
    }
 
     /* intro section
    -------------------------------------------------------------------- */
    .slider-text { margin-top: 120px; margin-bottom: 48px; }
-   .slider-text h2 { font: 43px/54px montserrat-regular, sans-serif; }
+   .slider-text h2 { font: 43px/82px montserrat-regular, sans-serif; }
    .slider-text p {
       font: 14px/30px opensans-regular, sans-serif;
       margin-top: 30px;
@@ -1604,6 +1604,3 @@ footer .social-links li:first-child { margin-left: 0; }
    }
 
 }
-
-
-
