@@ -753,6 +753,11 @@ ul#nav li.active a { color: #11ABB0; }
    color: #11ABB0;
 }
 
+#contact p {
+  font-size: 18px ;
+  color: #ffffff ;
+}
+
 
 /* ================================================================== */
 
