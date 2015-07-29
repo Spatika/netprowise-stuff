@@ -101,7 +101,7 @@ header.static {
 header .logo {
    position: relative;
    height: 82px;
-   width: 150px;
+   width: 130px;
    float: left;
 }
 header .logo a {
@@ -113,8 +113,8 @@ header .logo a {
    line-height: 18px;
 
    position: absolute;
-   left: 12px;
-   top: 16px;
+   left: -200px;
+   top: 10px;
 }
 
 /* primary navigation
@@ -1188,6 +1188,7 @@ footer .social-links {
    font-size: 18px;
    margin-top: -3px;
    float: right;
+   color: #551A8B ;
 }
 footer .social-links li {
     display: inline-block;
