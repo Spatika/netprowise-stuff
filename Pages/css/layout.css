@@ -1168,6 +1168,7 @@ footer .copyright li {
 }
 .ie footer .copyright li {
    display: inline;
+   color: white ;
 }
 
 footer .copyright li:before {
@@ -1193,6 +1194,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 24px;
+    color: #551A8B ;
 }
 footer .social-links li:first-child { margin-left: 0; }
 
